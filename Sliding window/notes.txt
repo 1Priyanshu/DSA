@@ -1,0 +1,8 @@
+subarray or substring
+
+-> largest or maximum  / smallest or minimum
+
+-> window size given or not given
+
+eg  maximum subarray sum
+eg length of largest subarray having given sum

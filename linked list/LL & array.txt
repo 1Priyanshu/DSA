@@ -1,0 +1,5 @@
+1) The array is considered a data structure for which size is fixed at the compile-time and array memory is allocated either from the Data section (e.g. global array) or Stack section (e.g. local array).
+
+1)  A linked list is considered a data structure for which size is not fixed and memory is allocated from the Heap section (e.g. using malloc(), etc.
+
+(*) The array is taken as a static data structure (residing in Data or Stack section) while the linked list is taken as a dynamic data structure (residing in the Heap section).

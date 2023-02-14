@@ -1,0 +1,33 @@
+1)Open Addressing:
+
+-All keys are stored in hash table itself.
+-closed hashing
+-based on probing, collisions are removed from probing.
+
+Linear Probing:
+	-The interval between probes is fixed at 1. In linear probing, we search the hash table sequentially,starting from the original hash 	location.
+
+		rehash(key) = (n + 1)% tablesize.
+
+
+Quadratic Probing:
+
+		rehash(key) = (n + k^2)% tablesize.
+
+Double Hasghing:
+	-Collision resolving technique.
+
+		(hash1(key) + i * hash2(key)) % TABLE_SIZE 
+		 hash2(key) = PRIME – (key % PRIME) ; where PRIME is a prime smaller than the TABLE_SIZE.
+
+Bloom filter:
+
+	-A Bloom filter is a probabilistic data structure which was designed to check whether an element
+	is present in a set with memory and time efficiency
+	
+	-Based on Bit vector data structure.
+
+
+
+
+
